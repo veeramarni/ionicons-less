@@ -12,6 +12,10 @@ Package.onUse(function(api) {
   api.use('less', 'client');
 
   // less
+  api.addFiles('ionicons.import.less', 'client');
+  api.addFiles('lib/less/_ionicons-font.less', 'client', {isImport: true});
+  api.addFiles('lib/less/_ionicons-icons.less', 'client', {isImport: true});
+  api.addFiles('lib/less/_ionicons-variables.less', 'client', {isImport: true});
   api.addFiles('lib/less/ionicons.less', 'client', {isImport: true});
 
   // fonts
