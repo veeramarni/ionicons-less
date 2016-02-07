@@ -4,7 +4,9 @@
 
 `meteor add veeramarni:ionicons-less`
 
-Create a .less file anywhere in your project to be served to the client and add `@import "{veeramarni:ionicons-less}/ionicons.import.less";`
+Create a .less file anywhere in your project to be served to the client and add
+
+`@import "{veeramarni:ionicons-less}/ionicons.import.less";`
 
 ## Customized Usage
 
