@@ -17,4 +17,4 @@ You can copy the ionicons.less file into your project and overwrite the variable
 @brand-primary: #FF69B4; // needs a fabulous color ;)
 
 ```
-Then you need to rename it into bootstrap.less and you can start using your custom build.
+
